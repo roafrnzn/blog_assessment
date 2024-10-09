@@ -1,0 +1,93 @@
+/* Blog Header and Title Container */
+.blog-header-cont,
+.blog-title-cont {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1.5rem; /* Simple, clean typography */
+    font-weight: 500;
+    color: #333333; /* Darker text for better contrast */
+    margin-bottom: 1rem;
+}
+
+/* Add Post Button */
+.addPost-btn {
+    color: white;
+    background-color: #007BFF; /* A clean, modern blue */
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px; /* Rounded corners for a friendly feel */
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.addPost-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Blog Card */
+.blog {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    border: 1px solid #E0E0E0; /* Light border for separation */
+    border-radius: 12px; /* Softer, more rounded corners */
+    background-color: #333333; /* Clean, white background */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Very light shadow for depth */
+    color: #333333; /* Darker text for readability */
+    transition: box-shadow 0.3s ease;
+}
+
+.blog:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Slightly more pronounced shadow on hover */
+}
+
+/* Footer Content */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.75rem;
+    border-top: 1px solid #F0F0F0; /* Very light divider */
+    margin-top: 1rem;
+}
+
+/* Author Styling */
+.author {
+    font-size: 0.875rem; /* Smaller, unobtrusive font */
+    color: #777777; /* Light gray for subtle text */
+}
+
+/* Highlight for 'You' */
+.you {
+    color: #007BFF; /* Use the same blue for consistency */
+    font-weight: bold;
+}
+
+/* Search Container */
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.search-container mat-form-field {
+    flex: 1;
+    margin-right: 0.75rem;
+}
+
+.search-container button {
+    padding: 0.75rem 1.5rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-container button:hover {
+    background-color: #0056b3;
+}
